@@ -1,0 +1,104 @@
+@media screen and (max-width: 768px) {
+    .tester-heading{
+        font-size: 26px;
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: left;
+        color: black;
+        font-family: 'Yeseva One', serif;
+    }
+    .tester-text {
+        color: white;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: black;
+        border-radius: 5px;
+        text-align: left;
+        font-family: "Cormorant Garamond", serif;
+    }
+    .point1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+        border-bottom: 1px solid white;
+        padding: 10px;
+  
+    }
+    .point2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid white;
+        padding: 10px;
+    }
+    .point3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 5px;
+        border-bottom: 1px solid white;
+        padding: 10px;
+        text-align: left;
+        background-color: black;
+        border-radius: 5px;
+        font-family: "Cormorant Garamond", serif;
+    }
+
+}
+@media screen and (min-width: 769px) {
+    .tester-heading{
+        font-size: 48px;
+        margin-top: 100px;
+        text-align: center;
+        color: black;
+        font-family: 'Yeseva One', serif;
+    }
+    .tester-text {
+        font-size: 24px;
+        display: grid;
+        margin-top: 50px;
+        margin-left: 250px;
+        margin-right: 250px;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        font-family: "Cormorant Garamond", serif;
+    }
+    .point1{
+        color: white;
+        background-color: black;
+        margin-bottom: 20px;
+        padding: 10px;
+        text-align: center;
+        /* border: 1px solid white; */
+        border-radius: 10px;
+    }
+    .point2{
+        color: white;
+        background-color: black;
+        margin-bottom: 20px;
+        padding: 10px;
+        text-align: center;
+        /* border: 1px solid white; */
+        border-radius: 10px;
+    }
+    .point3{
+        font-size: 24PX;
+        color: white;
+        background-color: black;
+        margin-left: 250px;
+        margin-right: 250px;
+        margin-bottom: 20px;
+        padding: 10px;
+        text-align: center;
+        /* border: 1px solid white; */
+        font-family: "Cormorant Garamond", serif;
+        border-radius: 10px;
+    }
+
+}

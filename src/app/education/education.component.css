@@ -1,0 +1,132 @@
+/* @media screen and (max-width: 768px) {
+    .background-heading{
+        font-size: 26px;
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+        color: black;
+        font-family: 'Yeseva One', serif;
+    }
+    .c{
+        display: flex;
+        justify-content: center;
+    }
+    .card{
+        max-width: 50%;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .primaryimg{
+        margin-top: 20px;
+        align-items: center;
+        max-width: 50%;
+        border-radius: 50%;
+        background-color: white;
+        padding: 5px;
+        margin-bottom: 10px;
+        filter: grayscale(100%) contrast(100%);
+
+    }
+    .t{
+        display: flex;
+        justify-content: center;
+    }
+    .text{
+        margin-left: 10px;
+        margin-right: 10px;
+        max-width: 50%;
+        display: grid;
+        justify-content: center;
+    }
+    .primary-name{
+        width: 100%;
+        margin: 0;
+        padding-bottom: 10px;
+        text-align: center;
+        font-size: 13px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: black;
+        border-bottom: 1px solid white;
+    }
+    .school-name{
+        width: 100%;
+        font-size: 12px;
+        font-weight: bold;
+        margin: 0;
+        padding-top: 10px;
+        text-align: center;
+        color: black;
+    }
+    .degree{
+        width: 100%;
+        margin: 0;
+        font-size: 11px;
+        font-family: 'Courier New', Courier, monospace;
+        padding-top: 10px;
+        text-align: center;
+        color: black;
+        padding-bottom: 20px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+} */
+
+@media screen and (max-width: 768px) {
+
+
+}
+@media screen and (min-width: 769px) {
+    .background-heading{
+        font-size: 48px;
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+        color: black;
+        font-family: 'Yeseva One', serif;
+    }
+    .c{
+        display: flex;
+        justify-content: start;
+    }
+    .card{
+        max-width: 50%;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .primaryimg{
+        margin-top: 20px;
+        max-width: 25%;
+        border-radius: 50%;
+        background-color: white;
+        padding: 5px;
+        margin-bottom: 10px;
+        filter: grayscale(100%) contrast(100%);
+
+    }
+    .t{
+        display: flex;
+        justify-content: start;
+    }
+    .text{
+        margin-left: 10px;
+        margin-right: 10px;
+        max-width: 50%;
+        display: grid;
+        justify-content: start;
+    }
+}

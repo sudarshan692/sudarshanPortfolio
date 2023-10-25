@@ -1,0 +1,55 @@
+
+@media screen and (max-width: 768px) {
+    .heading-logo {
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+      }
+      .heading {
+        text-align: center;
+        font-size: 30px;
+        margin: 20px auto;
+        font-family: 'Monoton', sans-serif;
+        color: black;
+      }
+      .hello {
+        color: white
+      }
+      .heading-intro {
+        font-size: 18px;
+        text-align: center;
+        font-weight: bold;
+        font-family: "Cormorant Garamond", serif;
+      }
+
+}
+
+@media screen and (min-width: 769px) {
+
+      .heading-logo {
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+      }
+      .heading {
+        text-align: center;
+        font-size: 68px;
+        margin: 20px auto;
+        font-family: 'Monoton', sans-serif;
+        color: black;
+      }
+      .hello {
+        color: aliceblue;
+      }
+      .heading-intro {   
+        font-size: 24px;
+        margin-top: 20px;
+        text-align: center;
+        padding-left: 500px;
+        padding-right: 500px;
+        font-weight: bold;
+        font-family: "Cormorant Garamond", serif;
+      }
+}
+
+

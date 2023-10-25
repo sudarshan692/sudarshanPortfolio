@@ -1,0 +1,155 @@
+@media screen and (max-width: 768px) {
+    .tester-heading{
+        font-size: 26px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 60px;
+        text-align: left;
+        color: black;
+        font-family: 'Yeseva One', serif;
+    }
+    .tester-text {
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+        font-family: "Cormorant Garamond", serif;
+    }
+    .point1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        padding: 10px;
+        height: 60px;
+        background-color: black;
+        color: white;
+        margin-bottom: 5px;
+        border-radius: 5px;
+      
+    }
+    .point2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        margin-bottom: 5px;
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+        padding: 10px;
+        height: 60px;
+    }
+    .point3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        margin-bottom: 5px;
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+        padding: 10px;
+        height: 60px;
+    }
+    .point4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        margin-bottom: 5px;
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+        padding: 10px;
+        height: 60px;
+    }
+    .point5{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        margin-bottom: 5px;
+        background-color: black;
+        color: white;
+        padding: 10px;
+        height: 60px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 5px;
+        font-family: "Cormorant Garamond", serif;
+    }
+
+}
+@media screen and (min-width: 769px) {
+    .tester-heading{
+        font-size: 48px;
+        margin-top: 100px;
+        text-align: center;
+        color: black;
+        font-family: 'Yeseva One', serif;
+    }
+    .tester-text {
+        font-size: 24px;
+        display: grid;
+        margin-top: 50px;
+        margin-left: 250px;
+        margin-right: 250px;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        font-family: "Cormorant Garamond", serif;
+    }
+    .point1{
+        background-color: black;
+        color: white;
+        margin-bottom: 20px;
+        padding: 10px;
+        text-align: center;
+        /* border: 1px solid white; */
+        border-radius: 10px;
+    }
+    .point2{
+        background-color: black;
+        color: white;
+        margin-bottom: 20px;
+        padding: 10px;
+        text-align: center;
+        /* border: 1px solid white; */
+        border-radius: 10px;
+    }
+    .point3{
+        background-color: black;
+        color: white;
+        margin-bottom: 20px;
+        padding: 10px;
+        text-align: center;
+        /* border: 1px solid white; */
+        border-radius: 10px;
+    }
+    .point4{
+        background-color: black;
+        color: white;
+        margin-bottom: 20px;
+        padding: 10px;
+        text-align: center;
+        /* border: 1px solid white; */
+        border-radius: 10px;
+    }
+    .point5{
+        background-color: black;
+        color: white;
+        font-size: 24px;
+        margin-top: 10px;
+        margin-left: 250px;
+        margin-right: 250px;
+        height: 60px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid white; */
+        font-family: "Cormorant Garamond", serif;
+        border-radius: 10px;
+    }
+
+}

@@ -1,0 +1,32 @@
+@keyframes rise {
+  from{
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes scroll{
+  0% {
+      transform: translateX(100%);
+  }
+  100%{
+      transform: translateX(-100%);
+  }
+}
+@media screen and (max-width: 768px) {
+
+  .container {
+    max-width: 100%;
+  }
+
+
+}
+
+@media screen and (min-width: 769px) {
+  .container {
+    max-width: 100%;
+  }
+}

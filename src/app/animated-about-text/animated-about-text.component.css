@@ -1,0 +1,42 @@
+@media screen and (max-width: 768px) {
+    .about-heading{
+        padding-left: 20px;
+        text-align:left;
+        font-size: 26px;
+        margin-top: 50px;
+        color: black;
+        font-family: 'Yeseva One', serif;
+        
+    }
+    .about-text {
+        margin-top: 10px;
+        text-align:left;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-family: "Cormorant Garamond", serif;
+        color: white;
+        background-color: black;
+        padding: 10px;
+        border-radius: 4px;
+    }
+
+}
+@media screen and (min-width: 769px) {
+    .about-heading{
+        font-size: 48px;
+        margin-top: 100px;
+        text-align: center;
+        color: black;
+        font-family: 'Yeseva One', serif;
+    }
+    .about-text {
+        font-size: 24px;
+        margin-top: 20px;
+        text-align: center;
+        padding-left: 450px;
+        padding-right: 450px;
+        font-family: "Cormorant Garamond", serif;
+    }
+
+}
+
